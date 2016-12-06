@@ -1,0 +1,80 @@
+#anchorPane {
+    /*-fx-border-width: 2px;
+    -fx-border-color: chartreuse;*/
+    -fx-background-color: #ffffff;
+}
+
+/*#gridPane {
+    -fx-border-width: 2px;
+    -fx-border-color: red;
+}
+
+#content {
+    -fx-border-width: 2px;
+    -fx-border-color: blue;
+}
+
+#albumsWrap {
+    -fx-border-width: 2px;
+    -fx-border-color: yellow;
+}*/
+
+.musicProgress > .slider .track {
+    -fx-background-color:null;
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em;
+}
+
+.musicProgress > .slider .thumb {
+    -fx-background-color: #000000;
+}
+
+.musicProgress > .progress-bar .bar {
+    -fx-padding: 1px;
+    -fx-background-insets: 0;
+}
+
+.musicProgress > .progress-bar {
+    -fx-accent: #000000;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+
+.playlist .image-view {
+    -fx-image: url("../image/playlist.png");
+}
+
+.playlist .label {
+    -fx-text-fill: #000000;
+}
+
+.playlist-select {
+    -fx-background-color: #000000;
+}
+
+.playlist-select .image-view {
+    -fx-image: url("../image/playlist-select.png");
+}
+
+.playlist-select .label {
+    -fx-text-fill: #ffffff;
+}
+
+.add-folder .image-view {
+    -fx-image: url("../image/add-folder.png");
+}
+
+#playPauseButton {
+    -fx-image: url("../image/play.png");
+}
+
+#playPauseButton.playing {
+    -fx-image: url("../image/pause.png");
+}

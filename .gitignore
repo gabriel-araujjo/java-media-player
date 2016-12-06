@@ -1,0 +1,5 @@
+app/build/
+dao/build/
+out/
+.gradle
+.idea

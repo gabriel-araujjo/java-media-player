@@ -1,0 +1,12 @@
+.tracknumber {
+    -fx-text-fill: #cccccc;
+}
+
+.image-view.trackplaying {
+    -fx-image: url("../image/playing-status.png");
+}
+
+#albumTItle {
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
